@@ -1,0 +1,27 @@
+:root {
+  --super-light-black: rgba(22, 24, 35, 0.05);
+  --primary: rgb(254, 44, 85);
+  --light-black: rgba(22, 24, 35, 0.5);
+  --input-background: #fff;
+  --toggle-color: rgba(0, 0, 0, 0.1);
+  --body_background: white;
+  --input-header-background: rgba(0, 0, 0, 0.1);
+  --body_color: black;
+  --current-icon-color: black;
+  --while-color: #fff;
+  --black-color: #111;
+  --max-height-header: 60px;
+  --max_height-input-header: 40px;
+  --max_width-tiktok: 1325px;
+}
+
+[data-theme='dark'] {
+  --super-light-black: rgba(128, 115, 115, 0.699);
+  --light-black: #999;
+  --input-background: rgb(37, 37, 37);
+  --body_background: black;
+  --body_color: #fff;
+  --input-header-background: rgba(255, 255, 255, 0.12);
+  --toggle-color: rgb(11, 224, 155);
+  --current-icon-color: #fff;
+}

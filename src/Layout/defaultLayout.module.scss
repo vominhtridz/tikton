@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.sidebar {
+  overflow-y: scroll;
+  width: calc(18%);
+}
+.content {
+  overflow-y: scroll;
+  width: calc(82%);
+}

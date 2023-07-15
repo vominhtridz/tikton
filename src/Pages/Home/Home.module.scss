@@ -1,0 +1,129 @@
+.wrapper {
+  font-family: 'IBM Plex Sans', TikTokFont, Arial, Tahoma,
+    PingFangSC, sans-serif;
+  width: 692px;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+  height: 679px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header-account {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.following {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 6px 22px;
+  border-radius: 4px;
+
+  font-size: 16px;
+  color: rgba(254, 44, 85, 1);
+  border-color: rgba(254, 44, 85, 1);
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(254, 44, 85, 0.06);
+  }
+}
+
+.img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.information-user {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  .username {
+    display: inline-block;
+    a {
+      color: var(--body_color);
+      text-decoration: none;
+      font-size: 16px;
+      letter-spacing: 0.4px;
+      font-weight: 800;
+      margin: 0 5px 0 0;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  span {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  a {
+    color: rgba(22, 24, 35, 1);
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+    .icon-music {
+      font-size: 13px;
+      margin-right: 6px;
+    }
+  }
+}
+
+// user account
+.user-account {
+  position: relative;
+  display: flex;
+  .video {
+    height: 553px;
+    width: 310px;
+    overflow: hidden;
+    border-radius: 6px;
+    border: none;
+    video {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .active {
+    position: absolute;
+    bottom: 0px;
+    left: 47%;
+
+    & > div {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      .active-icon {
+        background-color: var(--input-header-background);
+        margin: 12px 0px;
+        padding: 18px;
+        font-size: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .primary {
+        color: var(--primary);
+      }
+      p {
+        color: rgba(22, 24, 35, 0.75);
+        font-family: 'IBM Plex Sans', TikTokFont, Arial,
+          Tahoma, PingFangSC, sans-serif;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 600;
+        letter-spacing: 0.161px;
+        margin: 0;
+      }
+    }
+  }
+}

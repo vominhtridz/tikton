@@ -1,0 +1,144 @@
+.wrapper {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--max_width-tiktok);
+  margin: 0 auto;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  height: var(--max-height-header);
+  margin-right: 200px;
+  cursor: pointer;
+}
+
+// search
+.search {
+  z-index: 9999;
+  position: relative;
+  font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma,
+    PingFangSC, sans-serif;
+  width: 478px;
+  height: var(--max_height-input-header);
+  border-radius: 92px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  background: var(--input-header-background);
+  padding: 3px 0 3px 12px;
+  &:hover {
+    border: 2px solid var(--input-header-background);
+  }
+  &:focus-within {
+    border: 2px solid var(--input-header-background);
+  }
+  .input {
+    background: rgba(22, 24, 35, 0);
+    border: none;
+    outline: none;
+    height: 100%;
+    color: var(--body_color);
+    width: 80%;
+    font-size: 16px;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: var(--body_color);
+    }
+  }
+  .search-item {
+    display: none;
+  }
+
+  &:focus-within .search-item {
+    top: 115%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    background: var(--input-background);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+    border-radius: 8px;
+    max-height: min((100vh - 96px) - 60px, 734px);
+    h4 {
+      margin: 10px 0 5px 8px;
+      color: var(--body-color);
+    }
+  }
+
+  // result serch
+  .result-search {
+    color: var(--body-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 8px;
+
+    & > .result-search_item {
+      color: var(--body-color);
+      font-size: 15px;
+      margin-right: 8px;
+    }
+    & + & {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.loading {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0;
+  right: 13%;
+  font-size: 16px;
+  color: black;
+  animation: SideRotate 0.5s linear;
+}
+
+@keyframes SideRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.close {
+  position: absolute;
+  right: 13%;
+  font-size: 16px;
+  color: black;
+}
+
+.search-btn {
+  position: relative;
+  right: -40px;
+  font-size: 19px;
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  height: 115%;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 20px 0 12px;
+  &:hover {
+    border-radius: 0 50% 50% 0;
+    background-color: var(--light-black);
+  }
+  &:first-child {
+    height: 80%;
+  }
+}
+
+////--------account-------
+///
