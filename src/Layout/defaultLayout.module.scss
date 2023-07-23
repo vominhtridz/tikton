@@ -4,10 +4,14 @@
   width: 100%;
 }
 .sidebar {
-  overflow-y: scroll;
   width: calc(18%);
+  margin-top: var(--max-height-header);
+  position: fixed;
+  overflow-y: scroll;
 }
 .content {
-  overflow-y: scroll;
   width: calc(82%);
+  margin-top: var(--max-height-header);
+  position: absolute;
+  right: 0;
 }
