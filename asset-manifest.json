@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/tiktok/static/css/main.f2754c4c.css",
-    "main.js": "/tiktok/static/js/main.02cb7791.js",
-    "static/js/787.fe00223f.chunk.js": "/tiktok/static/js/787.fe00223f.chunk.js",
-    "static/media/group_funny.mp4": "/tiktok/static/media/group_funny.b24a85167782387a482d.mp4",
-    "static/media/hot_music.mp4": "/tiktok/static/media/hot_music.00b4810f9ecf195d6644.mp4",
-    "static/media/dance1.mp4": "/tiktok/static/media/dance1.90390d81b9b2993f503c.mp4",
-    "static/media/group_funny1.mp4": "/tiktok/static/media/group_funny1.b2bef1d21945f1986079.mp4",
-    "static/media/girl_2.mp4": "/tiktok/static/media/girl_2.1a709f21105f747db756.mp4",
-    "static/media/ghost.mp4": "/tiktok/static/media/ghost.95dc9315d5d27ab0891d.mp4",
-    "static/media/money_1.mp4": "/tiktok/static/media/money_1.acc5812ecc0ba3615bfc.mp4",
-    "static/media/baybe.mp4": "/tiktok/static/media/baybe.5c74712b986161df9339.mp4",
-    "static/media/cute_girl.mp4": "/tiktok/static/media/cute_girl.2493da79fb72aa6d75f0.mp4",
-    "static/media/video_2.mp4": "/tiktok/static/media/video_2.63f8ca225db11051d963.mp4",
-    "static/media/girl_1.mp4": "/tiktok/static/media/girl_1.d2c0db797bc8f41ed5ce.mp4",
-    "static/media/dance.mp4": "/tiktok/static/media/dance.63b3b2935c55c9d0260e.mp4",
-    "static/media/video1.mp4": "/tiktok/static/media/video1.369b087b87c3b68a763f.mp4",
-    "index.html": "/tiktok/index.html",
-    "main.f2754c4c.css.map": "/tiktok/static/css/main.f2754c4c.css.map",
-    "main.02cb7791.js.map": "/tiktok/static/js/main.02cb7791.js.map",
-    "787.fe00223f.chunk.js.map": "/tiktok/static/js/787.fe00223f.chunk.js.map"
+    "main.css": "/vominhtridz/tikton/static/css/main.f2754c4c.css",
+    "main.js": "/vominhtridz/tikton/static/js/main.48e7d35b.js",
+    "static/js/787.fe00223f.chunk.js": "/vominhtridz/tikton/static/js/787.fe00223f.chunk.js",
+    "static/media/group_funny.mp4": "/vominhtridz/tikton/static/media/group_funny.b24a85167782387a482d.mp4",
+    "static/media/hot_music.mp4": "/vominhtridz/tikton/static/media/hot_music.00b4810f9ecf195d6644.mp4",
+    "static/media/dance1.mp4": "/vominhtridz/tikton/static/media/dance1.90390d81b9b2993f503c.mp4",
+    "static/media/group_funny1.mp4": "/vominhtridz/tikton/static/media/group_funny1.b2bef1d21945f1986079.mp4",
+    "static/media/girl_2.mp4": "/vominhtridz/tikton/static/media/girl_2.1a709f21105f747db756.mp4",
+    "static/media/ghost.mp4": "/vominhtridz/tikton/static/media/ghost.95dc9315d5d27ab0891d.mp4",
+    "static/media/money_1.mp4": "/vominhtridz/tikton/static/media/money_1.acc5812ecc0ba3615bfc.mp4",
+    "static/media/baybe.mp4": "/vominhtridz/tikton/static/media/baybe.5c74712b986161df9339.mp4",
+    "static/media/cute_girl.mp4": "/vominhtridz/tikton/static/media/cute_girl.2493da79fb72aa6d75f0.mp4",
+    "static/media/video_2.mp4": "/vominhtridz/tikton/static/media/video_2.63f8ca225db11051d963.mp4",
+    "static/media/girl_1.mp4": "/vominhtridz/tikton/static/media/girl_1.d2c0db797bc8f41ed5ce.mp4",
+    "static/media/dance.mp4": "/vominhtridz/tikton/static/media/dance.63b3b2935c55c9d0260e.mp4",
+    "static/media/video1.mp4": "/vominhtridz/tikton/static/media/video1.369b087b87c3b68a763f.mp4",
+    "index.html": "/vominhtridz/tikton/index.html",
+    "main.f2754c4c.css.map": "/vominhtridz/tikton/static/css/main.f2754c4c.css.map",
+    "main.48e7d35b.js.map": "/vominhtridz/tikton/static/js/main.48e7d35b.js.map",
+    "787.fe00223f.chunk.js.map": "/vominhtridz/tikton/static/js/787.fe00223f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2754c4c.css",
-    "static/js/main.02cb7791.js"
+    "static/js/main.48e7d35b.js"
   ]
 }
