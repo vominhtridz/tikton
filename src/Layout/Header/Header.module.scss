@@ -1,9 +1,10 @@
 .wrapper {
   position: fixed;
   left: 0;
-  background-color: #fff;
+  background-color: var(--body_background);
   top: 0;
   right: 0;
+  color: var(--current-icon-color);
   z-index: 9999;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
 }

@@ -2,10 +2,11 @@ import { Link } from 'react-router-dom';
 import style from './Home.module.scss';
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import video2 from '..//..//img&video/video/girl_1.mp4';
-import video4 from '..//..//img&video/video/money_1.mp4';
-import video3 from '..//..//img&video/video/video_2.mp4';
-import video1 from '..//..//img&video/video/video1.mp4';
+import video2 from '../../img&video/video/girl_1.mp4';
+import video4 from '../../img&video/video/money_1.mp4';
+import video3 from '../../img&video/video/video_2.mp4';
+import video1 from '../../img&video/video/video1.mp4';
+import img1 from '../../img&video/img/dat_vila.jpeg'
 import {
   faHeartCircleBolt,
   faMusic,
@@ -46,7 +47,7 @@ function Home() {
           <Link to="@maihuong">
             <img
               className={cx('img')}
-              src="https://p16-sign-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-giso/2c5cb360cd083c3aa96217a4d3b3964d~c5_100x100.jpeg?x-expires=1688968800&x-signature=ikhYCqYL%2FW%2FjevRckWKMKCWgKww%3D"
+              src={img1}
             />
           </Link>
           <div className={cx('information-user')}>
@@ -56,6 +57,7 @@ function Home() {
               </a>
               <span>Trần Huyền Châu</span>
             </div>
+            
             <span>
               #DaNang Dự báo thười tiết hôm nay có nắng và
               có bụi
@@ -132,7 +134,7 @@ function Home() {
           <Link to="@maihuong">
             <img
               className={cx('img')}
-              src="https://p16-sign-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-giso/77d9485d6617544567ba881e2eadcef4~c5_100x100.jpeg?x-expires=1688371200&x-signature=UZskL1FEzt26xxm46ZPppF2HxwY%3D"
+              src={img1}
             />
           </Link>
           <div className={cx('information-user')}>
